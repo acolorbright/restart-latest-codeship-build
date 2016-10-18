@@ -11,5 +11,13 @@
   "dependencies": {
     "express": "^4.14.0",
     "request": "^2.75.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
   }
 }
