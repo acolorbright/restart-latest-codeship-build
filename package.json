@@ -1,8 +1,8 @@
 {
-  "name": "codeship-restart-latest-build",
+  "name": "restart-latest-codeship-build",
   "version": "1.0.0",
   "description": "",
-  "main": "codeship-restart-latest-build.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
