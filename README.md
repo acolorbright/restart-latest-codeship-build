@@ -22,5 +22,5 @@ Please use [GitHub issues].
 [Codeship]: https://www.codeship.com/
 [details of the project]: https://documentation.codeship.com/integrations/api/#get-a-single-project
 [restart the build]: https://documentation.codeship.com/integrations/api/#restart-a-single-build
-[account settings]: https://app.codeship.com/user/edit
+[account settings page]: https://app.codeship.com/user/edit
 [GitHub issues]: https://github.com/acolorbright/restart-latest-codeship-build/issues
