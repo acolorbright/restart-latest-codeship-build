@@ -5,7 +5,7 @@ app.get('*', (req, res) => {
   res.send(`<!doctype html><title>Restart latest Codeship build</title><code><p><strong>USAGE</strong><br>curl -X POST https://${req.headers.host}/<mark>:codeship_api_key</mark>/<mark>:codeship_project_id</mark>/<mark>:branch</mark></p></code>`);
 });
 
-app.post('/:api_key/:project_id/:branch', (req, res) => {
+app.post('/:api_key/:project_id/:branch?', (req, res) => {
   // Get all Codeship builds for this project
   request.get(`https://codeship.com/api/v1/projects/${req.params.project_id}.json?api_key=${req.params.api_key}`, (buildsError, _, buildsBody) => {
     if (buildsError) {
